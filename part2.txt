@@ -1,0 +1,57 @@
+------------------------------ Test Case ------------------------------
+
+Description
+This test will verify that bots can be added to "Your Duo"
+
+Steps
+1. Navigate to Duel Duo homepage
+2. Click on "Draw" button
+3. Click on one of the bots' "Add to Duo" buttons
+
+Postconditions (hypothesis of outcome?)
+1. The bot whose "Add to Duo" button was clicked should no longer be displayed in the "Choose 2!" section
+2. A "Your Duo" section should be displayed under the "Choose 2!" section
+3. The bot whose "Add to Duo" button was clicked should be displayed under the "Your Duo" section
+
+------------------------------ Bug Report ------------------------------
+
+Description
+"See All Bots" button does not display bots.
+
+Steps to reproduce
+1. Navigate to Duel Duo homepage
+2. Click on "See All Bots"
+
+Expected result
+All bots should be displayed on page
+
+Actual result
+No bots are displayed on page
+
+Environment
+- Chrome version 95
+- macOS Big Sur
+
+
+------------------------------ Bug Report #2 ------------------------------
+
+Description
+Player wins increment "loss" count, rather than "win" count
+
+Steps to reproduce
+1. Navigate to Duel Duo homepage
+2. Click on "Draw" button
+3. Add two bots to ""Your Duo" by clicking two of the bots' "Add to Duo" buttons
+4. Click "Duel!" button
+5. If you lose, click "Play again!" button
+6. Repeat steps 2-5 until you win
+
+Expected result
+Duels won by the player should increment the number of "wins" by 1
+
+Actual result
+Duels won by the player increment the number of "loses" by 1
+
+Environment
+- Chrome version 95
+- macOS Big Sur
