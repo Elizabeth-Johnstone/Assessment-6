@@ -5,7 +5,7 @@ This test will verify that bots can be added to "Your Duo"
 
 Steps
 1. Navigate to Duel Duo homepage
-2. Click on "Draw" button
+2. Click on the "Draw" button
 3. Click on one of the bots' "Add to Duo" buttons
 
 Postconditions (hypothesis of outcome?)
@@ -40,17 +40,17 @@ Player wins increment "loss" count, rather than "win" count
 
 Steps to reproduce
 1. Navigate to Duel Duo homepage
-2. Click on "Draw" button
+2. Click on the "Draw" button
 3. Add two bots to ""Your Duo" by clicking two of the bots' "Add to Duo" buttons
-4. Click "Duel!" button
-5. If you lose, click "Play again!" button
+4. Click the "Duel!" button
+5. If you lose, click the "Play again!" button
 6. Repeat steps 2-5 until you win
 
 Expected result
 Duels won by the player should increment the number of "wins" by 1
 
 Actual result
-Duels won by the player increment the number of "loses" by 1
+Duels won by the player increment the number of "losses" by 1
 
 Environment
 - Chrome version 95
